@@ -497,6 +497,103 @@ Tone: neutral, factual, short. Add a source URL at the end of each bullet. If a 
 
 </div>
 
+<div class="card">
+<h3>1.3 · Prompt tambahan untuk kerja harian (Bahasa Indonesia)</h3>
+<p class="lead">Enam prompt siap-pakai untuk pekerjaan sehari-hari Bu Sari, semuanya mengikuti kerangka G-C-S-E. Boleh dipakai langsung, atau diadaptasi sesuai konteks masing-masing.</p>
+
+<div class="activity">
+<div class="head"><span class="num">Prompt 1</span><span class="file">💬 Copilot Chat · Risalah rapat direksi</span></div>
+<h4>Draft resolusi dewan komisaris</h4>
+<div class="prompt">Goal: buatkan saya draft resolusi dewan komisaris dalam Bahasa Indonesia yang menyetujui alokasi anggaran pemasaran FY27 senilai 3,2 miliar rupiah untuk ekspansi brand Amara ke kota-kota Tier-2.
+
+Context: saya Executive Assistant to the Board di Contoso Beauty Innovation. Resolusi ini akan ditandatangani oleh empat komisaris pada rapat Senin depan. Bahasa yang dipakai harus gaya korporat Indonesia yang formal, tapi jangan berlebihan.
+
+Source: hanya gunakan informasi yang saya berikan di prompt ini. Jangan mengarang angka lain atau nama komisaris.
+
+Expectation: tiga bagian berurutan:
+1. Paragraf-paragraf pertimbangan ("Menimbang bahwa...") yang merujuk ke pembahasan Q3.
+2. Isi resolusi dalam klausul bernomor ("Memutuskan: Pertama, ...; Kedua, ...").
+3. Blok tanda tangan untuk empat komisaris.
+
+Nada: formal, netral, tanpa kata sifat berlebihan seperti "sangat", "signifikan", "luar biasa". Panjang maksimal satu halaman.<button class="copy" onclick="cp(this)">Copy</button></div>
+</div>
+
+<div class="activity">
+<div class="head"><span class="num">Prompt 2</span><span class="file">💬 Copilot Chat · Riset industri</span></div>
+<h4>Pemetaan pesaing untuk klaim tertentu</h4>
+<div class="prompt">Goal: bantu saya memetakan langkah pesaing terkait klaim "clean beauty" dan "waterless formulation" dalam 60 hari terakhir.
+
+Context: saya menyiapkan bahan untuk rapat marketing di Contoso Beauty Innovation. Pesaing utama yang perlu dipantau: Wardah, Emina, Somethinc, YOU Beauty, Kahf. Audiens output ini adalah CMO baru yang belum familiar dengan lanskap kosmetik Indonesia.
+
+Source: gunakan sumber publik saja - media Indonesia (Kompas, Bisnis Indonesia, CNBC Indonesia, Katadata), akun media sosial resmi brand, dan situs web resmi brand. Jangan menebak.
+
+Expectation: satu tabel Markdown dengan kolom brand, tanggal, judul pengumuman singkat, ringkasan satu kalimat, URL sumber. Urutkan berdasarkan tanggal terbaru. Jika tidak ada pengumuman untuk suatu brand, tulis "Tidak ada pengumuman relevan" pada baris tersebut - jangan mengarang.<button class="copy" onclick="cp(this)">Copy</button></div>
+</div>
+
+<div class="activity">
+<div class="head"><span class="num">Prompt 3</span><span class="file">💬 Copilot Chat · Regulasi</span></div>
+<h4>Latar belakang sertifikasi halal MUI vs BPJPH</h4>
+<div class="prompt">Goal: jelaskan dengan bahasa yang mudah dipahami, apa perbedaan antara sertifikasi Halal MUI dan sertifikasi Halal BPJPH di Indonesia saat ini.
+
+Context: saya perlu memberi briefing dua paragraf kepada dewan komisaris Contoso Beauty Innovation. Kami adalah produsen kosmetik, dan brand Amara saat ini masih memegang sertifikasi MUI. Anggota dewan komisaris bukan orang teknis regulasi, mereka butuh gambaran besar dan implikasi bisnis.
+
+Source: hanya gunakan sumber resmi dan publik - situs BPJPH, situs MUI, PP Nomor 39 Tahun 2021, dan pemberitaan media utama Indonesia yang relevan. Cantumkan URL sumber untuk setiap fakta.
+
+Expectation: tiga bagian, masing-masing satu paragraf pendek:
+1. Perbedaan utama antara dua sertifikasi tersebut.
+2. Jadwal transisi resmi dan tenggat waktu yang berlaku.
+3. Implikasi konkret bagi brand kosmetik yang hanya memiliki sertifikat MUI.
+
+Jika ada informasi yang belum jelas atau masih dalam pembahasan, tandai "[perlu verifikasi]" - jangan menebak.<button class="copy" onclick="cp(this)">Copy</button></div>
+</div>
+
+<div class="activity">
+<div class="head"><span class="num">Prompt 4</span><span class="file">💬 Copilot Chat · Komunikasi internal</span></div>
+<h4>Pengumuman dwibahasa untuk internal</h4>
+<div class="prompt">Goal: buatkan pengumuman internal dalam dua versi (versi Inggris dulu, lalu versi Bahasa Indonesia yang natural) untuk menyambut Chief Marketing Officer baru yang bergabung minggu depan.
+
+Context: pengumuman ini dikirim atas nama CEO Contoso Beauty Innovation ke seluruh karyawan (sekitar 12.000 orang, tersebar di R&D, pabrik, marketing, dan retail). CMO baru bernama Ibu Melissa Kartika, sebelumnya di brand kosmetik global, akan fokus pada penguatan brand Amara dan Kaia di 100 hari pertama.
+
+Source: hanya gunakan informasi yang saya berikan di prompt ini. Jangan mengarang latar belakang atau kutipan.
+
+Expectation: dua versi, masing-masing di bawah 120 kata. Versi Bahasa Indonesia harus terasa natural, bukan terjemahan kata per kata dari versi Inggris. Nada hangat tapi tidak berlebihan. Sertakan satu kalimat tentang fokus 100 hari pertamanya, dan satu kalimat ajakan untuk menyambut beliau.<button class="copy" onclick="cp(this)">Copy</button></div>
+</div>
+
+<div class="activity">
+<div class="head"><span class="num">Prompt 5</span><span class="file">💬 Copilot Chat · Kalender &amp; delegasi</span></div>
+<h4>Menyortir tumpukan permintaan meeting</h4>
+<div class="prompt">Goal: bantu saya menyortir 15 permintaan meeting yang masuk hari ini menjadi empat kategori tindakan.
+
+Context: saya EA untuk CEO Contoso Beauty Innovation. Kalender CEO Senin depan sudah 80% penuh. Saya akan menempelkan daftar 15 permintaan di bawah prompt ini - masing-masing berisi judul, nama peminta, durasi yang diminta, dan tingkat urgensi.
+
+Source: hanya gunakan daftar yang saya tempel. Jangan mengarang peminta baru atau agenda baru.
+
+Expectation: satu tabel Markdown dengan kolom nomor, judul meeting, peminta, dan kategori. Empat kategori yang harus dipakai:
+(a) Terima apa adanya.
+(b) Delegasikan - sebutkan siapa yang paling tepat (COO, CFO, CMO, atau Head of E-commerce).
+(c) Tolak dengan sopan - berikan satu kalimat alasan yang bisa saya pakai.
+(d) Butuh input CEO sebelum saya bisa jawab.
+
+Setelah tabel, berikan tiga kalimat rekomendasi tentang pola yang saya lihat dari 15 permintaan ini (misalnya: terlalu banyak dari satu fungsi, atau terlalu banyak yang bisa didelegasikan).<button class="copy" onclick="cp(this)">Copy</button></div>
+</div>
+
+<div class="activity">
+<div class="head"><span class="num">Prompt 6</span><span class="file">💬 Copilot Chat · Role-play persiapan</span></div>
+<h4>Latihan sebelum percakapan sulit dengan vendor</h4>
+<div class="prompt">Goal: bantu saya berlatih sebelum menyampaikan kepada vendor lama bahwa kontraknya tidak akan diperpanjang di Q4.
+
+Context: saya EA to the Board di Contoso Beauty Innovation. Vendor ini adalah Event Organizer yang sudah kerja sama tujuh tahun, tapi kualitasnya menurun dua kuartal terakhir. Yang berhubungan dengan saya adalah Account Manager mereka, Pak Bambang, yang kenal baik dengan CEO. Percakapan akan dilakukan by phone dalam Bahasa Indonesia.
+
+Source: gunakan konteks yang saya berikan di prompt ini. Jangan mengarang detail kontrak lain.
+
+Expectation: perankan Pak Bambang. Balas seolah-olah Anda sedang menerima kabar tersebut dari saya. Beri saya dorongan balik yang realistis - misalnya menyebut hubungan jangka panjang, minta bertemu langsung dengan CEO, atau menawarkan diskon. Gunakan gaya bahasa yang wajar dipakai vendor senior Indonesia (campuran Bahasa dan sedikit Inggris, sopan tapi tidak menyerah).
+
+Lakukan tiga pertukaran dialog. Setelah pertukaran ketiga, keluar dari peran dan berikan tiga catatan singkat: (1) di mana saya kurang tegas, (2) di mana saya bisa lebih empatik tanpa berubah pikiran, (3) satu kalimat penutup yang lebih baik daripada yang saya pakai.<button class="copy" onclick="cp(this)">Copy</button></div>
+</div>
+
+<div class="callout"><b>Kenapa kerangka G-C-S-E membantu.</b> Empat label ini (Goal, Context, Source, Expectation) memaksa kita menyebutkan hal-hal yang biasanya kita anggap "sudah jelas" - siapa audiensnya, sumber apa yang boleh dipakai, dan seperti apa hasil yang kita inginkan. Untuk pekerjaan admin harian yang berulang, sekali kita punya prompt yang bagus dengan G-C-S-E, kita bisa pakai ulang minggu depan tinggal ganti angkanya.</div>
+</div>
+
 <div class="callout warn"><b>Reality check.</b> Free Copilot Chat is <b>web-grounded only</b>. It cannot read Bu Sari's email, files, calendar, SharePoint, or OneDrive. If she needs a brief on internal Contoso data, that requires either uploading the file into the chat (see Exercises 2 to 4) or a paid Microsoft 365 Copilot licence with in-app grounding (not in scope for this session). Enterprise Data Protection is active only when Bu Sari is signed in with her corporate Entra ID; verify the green shield icon before pasting anything that references internal names, deals, or product formulas. Public-info background on people should stay strictly to publicly available sources; do not ask Copilot for private, personal, or non-public information about individuals.</div>
 
 </section>
